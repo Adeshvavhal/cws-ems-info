@@ -151,7 +151,7 @@ const EmployeeVerify = () => {
         { id, token, password }
       );
       setMessage(res.data.message);
-      setTimeout(() => navigate("/login"), 2000);
+      setTimeout(() => navigate("/"), 2000);
     } catch (err) {
       setMessage(err.response?.data?.error || "Server error");
     }
