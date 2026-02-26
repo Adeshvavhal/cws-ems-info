@@ -222,7 +222,7 @@ const EmployeeVerify = () => {
             </div>
 
             <div className="forgot-link1">
-              <Link to="/login">Back To Login</Link>
+              <Link to="/">Back To Login</Link>
             </div>
 
             <button type="submit" className="btn btn-primary">
